@@ -1,5 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
+  width: 100vw;
 }
 
 .App-logo {
@@ -35,4 +40,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+img {
+  padding: 0;
+  margin: 0;
+}
+#main-img {
+width: 100vw;
+height: auto;
+}
+
+.icons {
+  height: 40px;
+  width: 40px;
+}
+
+#socials {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
