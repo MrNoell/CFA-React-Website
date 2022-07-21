@@ -1,10 +1,14 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .App {
   text-align: center;
   width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -45,9 +49,12 @@ img {
   padding: 0;
   margin: 0;
 }
+
 #main-img {
 width: 100vw;
 height: auto;
+margin: 0;
+padding: 0;
 }
 
 .icons {
@@ -56,8 +63,23 @@ height: auto;
 }
 
 #socials {
-  margin-top: 80px;
+  padding: 30px 0px;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  background-color: #a6aace;
+}
+
+main {
+  margin-top: -4px;
+  padding: 0;
+  color: white;
+  background-color: #495196;
+  box-sizing: border-box;
+  width: 100vw;
+  text-align: justify;
+  padding: 50px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
